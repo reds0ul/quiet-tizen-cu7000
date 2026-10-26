@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="442" viewBox="0 0 1040 442" preserveAspectRatio="none">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#174fd1"/><stop offset=".55" stop-color="#443dd0"/><stop offset="1" stop-color="#9c45d0"/></linearGradient>
+  <linearGradient id="port" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fbfdff"/><stop offset="1" stop-color="#d8e5ff"/></linearGradient>
+  <clipPath id="clip"><rect width="1040" height="442" rx="20"/></clipPath>
+ </defs>
+ <g clip-path="url(#clip)">
+  <rect width="1040" height="442" fill="url(#bg)"/>
+  <circle cx="830" cy="70" r="265" fill="none" stroke="#fff" stroke-width="2" opacity=".12"/>
+  <circle cx="830" cy="70" r="200" fill="none" stroke="#fff" stroke-width="2" opacity=".1"/>
+  <circle cx="830" cy="70" r="135" fill="none" stroke="#fff" stroke-width="2" opacity=".08"/>
+  <path d="M550 480L1050 0" stroke="#fff" stroke-width="80" opacity=".045"/>
+  <g transform="translate(704 118) rotate(-10 142 98)">
+   <ellipse cx="155" cy="202" rx="154" ry="25" fill="#10163d" opacity=".24"/>
+   <path d="M30 10H272L300 56V143L258 181H44L2 143V56Z" fill="url(#port)"/>
+   <path d="M48 50H254V121L230 143H72L48 121Z" fill="#173e73"/>
+   <rect x="88" y="68" width="126" height="34" rx="4" fill="#79d7d0"/>
+   <path d="M102 68V90M126 68V90M150 68V90M174 68V90M198 68V90" stroke="#e7fffb" stroke-width="7"/>
+   <path d="M115 181V218H187V181" fill="#a5e5d5"/>
+  </g>
+ </g>
+</svg>

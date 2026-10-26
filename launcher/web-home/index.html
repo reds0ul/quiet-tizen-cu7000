@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="theme-color" content="#0b0d12">
+  <title>Quiet Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Home</h1>
+    <div id="clock" class="clock" aria-label="Time"></div>
+  </header>
+  <nav class="nav"><span class="active">Inputs</span></nav>
+  <main>
+    <section class="inputs" aria-label="HDMI inputs">
+      <button class="input-card hero focused" data-hdmi="1" aria-label="Switch to HDMI 1">
+        <span class="port-art" aria-hidden="true"><i></i></span>
+        <span class="card-name" id="hdmi-label-1">HDMI 1</span>
+      </button>
+      <button class="input-card side" data-hdmi="2" aria-label="Switch to HDMI 2">
+        <span class="port-art" aria-hidden="true"><i></i></span>
+        <span class="card-name" id="hdmi-label-2">HDMI 2</span>
+      </button>
+      <button class="input-card side" data-hdmi="3" aria-label="Switch to HDMI 3">
+        <span class="port-art" aria-hidden="true"><i></i></span>
+        <span class="card-name" id="hdmi-label-3">HDMI 3</span>
+      </button>
+    </section>
+    <footer>
+      <span id="status">Choose an input</span>
+      <span class="remote-hint">← → Navigate&nbsp;&nbsp; · &nbsp;&nbsp;OK Switch</span>
+    </footer>
+  </main>
+  <script src="input-labels.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
